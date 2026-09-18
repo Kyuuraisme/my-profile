@@ -12,6 +12,8 @@ class ProfileController extends Controller
             'nama' => 'Ega Risqi Putra.S',
             'nim' => '2555200009',
             'prodi' => 'Teknik Informatika',
+            'email' => 'egarisqi440@gmail.com',
+            'keahlian' => 'Web Developer, Game Developer, UI/UX Designer',
             'video' => 'video-profil.mp4'
         ];
         return view('profile', $data);
