@@ -5,7 +5,7 @@
     <title>Data Diri</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex items-center justify-center h-screen"">
+<body class="flex items-center justify-center h-screen bg-[url('{{ asset('img/background.jpg') }}')]">
     <div class="bg-gray-100 shadow-lg rounded-tl-3xl rounded-br-3xl p-6 w-96">
         <video class="w-48 h-48 mx-auto mb-4 border-4 border-pink-500 rounded-full object-cover" autoplay loop muted>
             <source src="{{ asset('img/' . $video) }}" type="video/mp4">
