@@ -5,8 +5,8 @@
     <title>Data Diri</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex items-center justify-center h-screen">
-    <div class="bg-gray-100 shadow-lg rounded-lg p-6 w-96">
+<body class="flex items-center justify-center h-screen"">
+    <div class="bg-gray-100 shadow-lg rounded-tl-3xl rounded-br-3xl p-6 w-96">
         <video class="w-48 h-48 mx-auto mb-4 border-4 border-pink-500 rounded-full object-cover" autoplay loop muted>
             <source src="{{ asset('img/' . $video) }}" type="video/mp4">
         </video>
@@ -17,8 +17,15 @@
         <p class="mb-4"><strong>Prodi:</strong> {{ $prodi }}</p>
         <p class="mb-4"><strong>Email:</strong> {{ $email }}</p>
         <p class="mb-4"><strong>Keahlian:</strong> {{ $keahlian }}</p>
-        <button class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 text-center">
-            View More
+        <div class="mt-4 p-4 bg-black border border-pink-500 rounded-lg text-left shadow-[0_0_10px_#ec4899]">
+            <h2 class="text-pink-400 font-semibold mb-2">Deskripsi:</h2>
+            <p class="text-gray-300 leading-relaxed">
+                {{ $deskripsi }}
+            </p>
+        </div>
+
+        <button class="mt-6 bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600  transition-colors duration-300">
+            Example Button
         </button>
         <footer class=" text-gray-400 text-center py-4">
         <p>&copy; 2026 Ega. All rights reserved.</p>

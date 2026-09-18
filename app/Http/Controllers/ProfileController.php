@@ -15,6 +15,7 @@ class ProfileController extends Controller
             'prodi' => 'Teknik Informatika',
             'email' => 'egarisqi440@gmail.com',
             'keahlian' => 'Web Developer, Game Developer, UI/UX Designer',
+            'deskripsi' => ' Saya adalah seorang mahasiswa Teknik Informatika yang memiliki minat besar dalam pengembangan web, pengembangan game, dan desain UI/UX.',
             'video' => 'video-profil.mp4'
         ];
         return view('profile', $data);
