@@ -10,6 +10,7 @@ class ProfileController extends Controller
     {
         $data = [
             'nama' => 'Ega Risqi Putra.S',
+            'quote' => 'sic mundus creatvs est',
             'nim' => '2555200009',
             'prodi' => 'Teknik Informatika',
             'email' => 'egarisqi440@gmail.com',

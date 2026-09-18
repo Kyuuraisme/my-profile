@@ -11,7 +11,7 @@
             <source src="{{ asset('img/' . $video) }}" type="video/mp4">
         </video>
         <h1 class="text-2xl font-bold mb-2 text-center">{{ $nama }}</h1>
-        <p class="text-gray-700 italic mb-1 text-center">"sic mundus creatvs est"</p>
+        <p class="text-gray-700 italic mb-1 text-center">"{{ $quote }}"</p>
         <hr class="border-t border-gray-600 my-3 w-full mx-auto">
         <p class="mb-1"><strong>NIM:</strong> {{ $nim }}</p>
         <p class="mb-4"><strong>Prodi:</strong> {{ $prodi }}</p>
